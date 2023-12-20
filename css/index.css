@@ -1,0 +1,60 @@
+/* p {
+    font-size: 50px;
+    color: green;
+} */
+/* 
+    RGB(红色，绿色，蓝色)
+ */
+body {
+    background-color: rgb(10, 100, 30,0.3);
+}
+
+.div_top_1 {
+    width: 10em;
+    height: 10em;
+    background-color: aqua;
+}
+
+.p_red {
+    font-size: 50px;
+    color: red;
+}
+
+.red {
+    color: orange;
+}
+
+div.red {
+    font-size: 30px;
+}
+
+div.box > span {
+    font-size: 45px;
+}
+
+div span {
+    color: black;
+}
+/* 临近p下面的span */
+p + span {
+    color:blue;
+}
+/* p下面所有的span */
+p ~ span {
+    color:yellow;
+}
+
+p[title] {
+    font-style: normal;
+}
+
+ul > li:nth-child(2n+1) {
+    color: red;
+}
+
+a:link{
+    color: orange;
+}
+a:visited{
+    color: black;
+}
